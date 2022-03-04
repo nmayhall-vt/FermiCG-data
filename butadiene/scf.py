@@ -4,7 +4,7 @@ import scipy
 
 import pyscf
 from pyscf import fci
-from pyscf import gto, scf, ao2mo, lo, tdscf
+from pyscf import gto, scf, ao2mo, lo, tdscf, cc
 
 
 
@@ -105,6 +105,14 @@ mf.conv_tol = 1e-9
 #mf.diis_space = 10
 mf.run(max_cycle=200)
 
+
+#compute CCSD(T) to compare
+mycc = pyscf.cc.CCSD(mf).run()
+print('CCSD total energy', mycc.e_tot)
+et = mycc.ccsd_t()
+print('CCSD(T) total energy', mycc.e_tot + et)
+
+
 n_triplets = 1
 n_singlets = 1
 
@@ -139,6 +147,39 @@ Cdoc, Cact = get_natural_orbital_active_space(avg_rdm1, S)
 # localize
 Cact = pyscf.lo.PM(mol).kernel(Cact, verbose=4);
 pyscf.tools.molden.from_mo(mol, "Cact.molden", Cact)
+
+#
+# Build integrals
+
+# First get the density from the doubly occupied orbitals 
+# to include in our effective 1 body operator
+d1_embed = 2 * Cdoc @ Cdoc.T
+
+h0 = pyscf.gto.mole.energy_nuc(mol)
+h  = pyscf.scf.hf.get_hcore(mol)
+j, k = pyscf.scf.hf.get_jk(mol, d1_embed, hermi=1)
+
+h0 += np.trace(d1_embed @ ( h + .5*j - .25*k))
+
+# Rotate 1electron terms to active space
+h = Cact.T @ h @ Cact
+j = Cact.T @ j @ Cact;
+k = Cact.T @ k @ Cact;
+
+h1 = h + j - .5*k;
+
+# form 2e integrals in active space
+nact = h.shape[0]
+h2 = pyscf.ao2mo.kernel(mol, Cact, aosym="s4", compact=False)
+h2.shape = (nact, nact, nact, nact)
+
+np.save("integrals_h0", h0)
+np.save("integrals_h1", h1)
+np.save("integrals_h2", h2)
+np.save("mo_coeffs_act", Cact)
+np.save("mo_coeffs_doc", Cdoc)
+np.save("overlap_mat", S)
+np.save("density_mat", mf.make_rdm1())
 
 
 ##
