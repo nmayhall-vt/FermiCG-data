@@ -142,7 +142,7 @@ avg_rdm1 = avg_rdm1 / (n_singlets + n_triplets + 1)
 S = mf.get_ovlp()
 print(" Number of electrons found %12.8f" %np.trace(S@avg_rdm1))
 
-Cdoc, Cact = get_natural_orbital_active_space(avg_rdm1, S)
+Cdoc, Cact = get_natural_orbital_active_space(avg_rdm1, S, thresh=.01)
 
 # localize
 Cact = pyscf.lo.PM(mol).kernel(Cact, verbose=4);
@@ -181,38 +181,3 @@ np.save("mo_coeffs_doc", Cdoc)
 np.save("overlap_mat", S)
 np.save("density_mat", mf.make_rdm1())
 
-
-##
-##   Build and store
-#
-#
-#j, k = mf.get_jk()
-#h    = mf.get_hcore()
-#s = mf.get_ovlp()
-#
-#fa = h + j[0] + j[1] - k[0]
-#fb = h + j[0] + j[1] - k[1]
-#
-#ca = mf.mo_coeff[0]
-#cb = mf.mo_coeff[1]
-#
-#dm1 = mf.make_rdm1();
-#da = dm1[0]
-#db = dm1[1]
-#print(np.max( (ca.T @ fa @ ca).diagonal() - mf.mo_energy[0]))
-#print(np.max( (cb.T @ fb @ cb).diagonal() - mf.mo_energy[1]))
-#
-#print(np.max( (ca.T @ mf.get_fock()[0] @ ca).diagonal() - mf.mo_energy[0]))
-#print(np.max( (cb.T @ mf.get_fock()[1] @ cb).diagonal() - mf.mo_energy[1]))
-#
-#np.save("uhf_mo_coeffs_a", mf.mo_coeff[0])
-#np.save("uhf_mo_coeffs_b", mf.mo_coeff[1])
-#np.save("uhf_j_a", j[0])
-#np.save("uhf_j_b", j[1])
-#np.save("uhf_k_a", k[0])
-#np.save("uhf_k_b", k[1])
-#np.save("uhf_h", h)
-#np.save("uhf_f_a", mf.get_fock()[0])
-#np.save("uhf_f_b", mf.get_fock()[1])
-#np.save("uhf_rdm1_a", da)
-#np.save("uhf_rdm1_b", db)
