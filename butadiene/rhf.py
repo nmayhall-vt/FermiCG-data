@@ -8,47 +8,6 @@ from pyscf import gto, scf, ao2mo, lo, tdscf, cc
 
 
 
-def get_natural_orbital_active_space(rdm, S, thresh=.01):
-   
-
-    Ssqrt = scipy.linalg.sqrtm((S+S.T)/2.0)
-    Sinvsqrt = scipy.linalg.inv(Ssqrt)
-
-    print(" Number of electrons found %12.8f" %np.trace(S@rdm))
-
-    Dtot = Ssqrt.T @ rdm @ Ssqrt
-    #Dtot = Ssqrt.T @ ( da + db) @ Ssqrt
-    D_evals, D_evecs = np.linalg.eigh((Dtot+Dtot.T)/2.0)
-
-    sorted_list = np.argsort(D_evals)[::-1]
-    D_evals = D_evals[sorted_list]
-    D_evecs = D_evecs[:,sorted_list]
-
-    act_list = []
-    doc_list = []
-
-
-    for idx,n in enumerate(D_evals):
-        print(" %4i = %12.8f" %(idx,n),end="")
-        if n < 2.0 - thresh:
-            if n > thresh:
-                act_list.append(idx)
-                print(" Active")
-            else:
-                print(" Virt")
-        else:
-            doc_list.append(idx)
-            print(" DOcc")
-
-    print(" Number of active orbitals: ", len(act_list))
-    print(" Number of doc    orbitals: ", len(doc_list))
-
-    D_evecs = Sinvsqrt @ D_evecs
-    Cdoc = D_evecs[:, doc_list]
-    Cact = D_evecs[:, act_list]
-    return Cdoc, Cact 
-
-
 
 
 def tda_denisty_matrix(td, state_id):
@@ -105,12 +64,12 @@ mf.conv_tol = 1e-9
 #mf.diis_space = 10
 mf.run(max_cycle=200)
 
-
-#compute CCSD(T) to compare
-mycc = pyscf.cc.CCSD(mf).run()
-print('CCSD total energy', mycc.e_tot)
-et = mycc.ccsd_t()
-print('CCSD(T) total energy', mycc.e_tot + et)
+#
+##compute CCSD(T) to compare
+#mycc = pyscf.cc.CCSD(mf).run()
+#print('CCSD total energy', mycc.e_tot)
+#et = mycc.ccsd_t()
+#print('CCSD(T) total energy', mycc.e_tot + et)
 
 
 n_triplets = 1
@@ -146,79 +105,3 @@ np.save("rhf_mo_coeffs", mf.mo_coeff)
 np.save("cis_sa_density_mat", avg_rdm1)
 
 
-#print(" Number of electrons found %12.8f" %np.trace(S@avg_rdm1))
-#
-#Cdoc, Cact = get_natural_orbital_active_space(avg_rdm1, S)
-#
-## localize
-#Cact = pyscf.lo.PM(mol).kernel(Cact, verbose=4);
-#pyscf.tools.molden.from_mo(mol, "Cact.molden", Cact)
-#
-##
-## Build integrals
-#
-## First get the density from the doubly occupied orbitals 
-## to include in our effective 1 body operator
-#d1_embed = 2 * Cdoc @ Cdoc.T
-#
-#h0 = pyscf.gto.mole.energy_nuc(mol)
-#h  = pyscf.scf.hf.get_hcore(mol)
-#j, k = pyscf.scf.hf.get_jk(mol, d1_embed, hermi=1)
-#
-#h0 += np.trace(d1_embed @ ( h + .5*j - .25*k))
-#
-## Rotate 1electron terms to active space
-#h = Cact.T @ h @ Cact
-#j = Cact.T @ j @ Cact;
-#k = Cact.T @ k @ Cact;
-#
-#h1 = h + j - .5*k;
-#
-## form 2e integrals in active space
-#nact = h.shape[0]
-#h2 = pyscf.ao2mo.kernel(mol, Cact, aosym="s4", compact=False)
-#h2.shape = (nact, nact, nact, nact)
-#
-#np.save("integrals_h0", h0)
-#np.save("integrals_h1", h1)
-#np.save("integrals_h2", h2)
-#np.save("mo_coeffs_act", Cact)
-#np.save("mo_coeffs_doc", Cdoc)
-#np.save("overlap_mat", S)
-#np.save("density_mat", mf.make_rdm1())
-#
-#
-###
-###   Build and store
-##
-##
-##j, k = mf.get_jk()
-##h    = mf.get_hcore()
-##s = mf.get_ovlp()
-##
-##fa = h + j[0] + j[1] - k[0]
-##fb = h + j[0] + j[1] - k[1]
-##
-##ca = mf.mo_coeff[0]
-##cb = mf.mo_coeff[1]
-##
-##dm1 = mf.make_rdm1();
-##da = dm1[0]
-##db = dm1[1]
-##print(np.max( (ca.T @ fa @ ca).diagonal() - mf.mo_energy[0]))
-##print(np.max( (cb.T @ fb @ cb).diagonal() - mf.mo_energy[1]))
-##
-##print(np.max( (ca.T @ mf.get_fock()[0] @ ca).diagonal() - mf.mo_energy[0]))
-##print(np.max( (cb.T @ mf.get_fock()[1] @ cb).diagonal() - mf.mo_energy[1]))
-##
-##np.save("uhf_mo_coeffs_a", mf.mo_coeff[0])
-##np.save("uhf_mo_coeffs_b", mf.mo_coeff[1])
-##np.save("uhf_j_a", j[0])
-##np.save("uhf_j_b", j[1])
-##np.save("uhf_k_a", k[0])
-##np.save("uhf_k_b", k[1])
-##np.save("uhf_h", h)
-##np.save("uhf_f_a", mf.get_fock()[0])
-##np.save("uhf_f_b", mf.get_fock()[1])
-##np.save("uhf_rdm1_a", da)
-##np.save("uhf_rdm1_b", db)

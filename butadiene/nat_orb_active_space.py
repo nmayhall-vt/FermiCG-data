@@ -51,30 +51,6 @@ def get_natural_orbital_active_space(rdm, S, thresh=.01):
 
 
 
-def tda_denisty_matrix(td, state_id):
-    '''
-    Taking the TDA amplitudes as the CIS coefficients, calculate the density
-    matrix (in AO basis) of the excited states
-    '''
-    cis_t1 = td.xy[state_id][0]
-    dm_oo =-np.einsum('ia,ka->ik', cis_t1.conj(), cis_t1)
-    dm_vv = np.einsum('ia,ic->ac', cis_t1, cis_t1.conj())
-
-    # The ground state density matrix in mo_basis
-    mf = td._scf
-    dm = np.diag(mf.mo_occ)
-
-    # Add CIS contribution
-    nocc = cis_t1.shape[0]
-    # Note that dm_oo and dm_vv correspond to spin-up contribution. "*2" to
-    # include the spin-down contribution
-    dm[:nocc,:nocc] += dm_oo * 2
-    dm[nocc:,nocc:] += dm_vv * 2
-
-    # Transform density matrix to AO basis
-    mo = mf.mo_coeff
-    dm = np.einsum('pi,ij,qj->pq', mo, dm, mo.conj())
-    return dm
 
 mol = gto.Mole()
 mol.atom = '''

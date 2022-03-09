@@ -1,3 +1,5 @@
+using FermiCG, NPZ, LinearAlgebra, Plots
+using Clustering, SpectralClustering
 #load integrals from disk
 ints = InCoreInts(
     npzread("integrals_h0.npy"), 
