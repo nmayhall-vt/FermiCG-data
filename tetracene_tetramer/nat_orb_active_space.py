@@ -198,7 +198,7 @@ print(S.shape)
 
 print(" Number of electrons found %12.8f" %np.trace(S@avg_rdm1))
 
-Cdoc, Cact = get_natural_orbital_active_space(avg_rdm1, S, thresh=.0003)
+Cdoc, Cact = get_natural_orbital_active_space(avg_rdm1, S, thresh=.00275)
 
 # localize
 Cact = pyscf.lo.PM(mol).kernel(Cact, verbose=4);
