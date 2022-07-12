@@ -188,8 +188,8 @@ mf.get_init_guess(mol, key='minao')
 mf.conv_tol = 1e-9
 
 # load precomputed data
-C = np.load("rhf_mo_coeffs.npy")
-avg_rdm1 = np.load("cis_sa_density_mat.npy")
+C = np.load("../rhf_mo_coeffs.npy")
+avg_rdm1 = np.load("../cis_sa_density_mat.npy")
 
 S = mf.get_ovlp()
 
