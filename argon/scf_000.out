@@ -1,0 +1,106 @@
+
+
+******** <class 'pyscf.pbc.scf.hf.RHF'> ********
+method = RHF-SCF-RHF
+initial guess = minao
+damping factor = 0
+level_shift factor = 0
+DIIS = <class 'pyscf.scf.diis.CDIIS'>
+diis_start_cycle = 1
+diis_space = 8
+SCF conv_tol = 1e-07
+SCF conv_tol_grad = None
+SCF max_cycles = 50
+direct_scf = False
+chkfile to save SCF result = /var/folders/9p/nhnq58pj3td7svw_pppk_syw0000gn/T/tmpn36dhlu8
+max_memory 4000 MB (current use 0 MB)
+******** PBC SCF flags ********
+kpt = [0. 0. 0.]
+Exchange divergence treatment (exxdiv) = ewald
+    madelung (= occupied orbital energy shift) = 0.27650702886594525
+    Total energy shift due to Ewald probe charge = -1/2 * Nelec*madelung = -4.42411246186
+DF object = <pyscf.pbc.df.df.GDF object at 0x11b91e390>
+Set gradient conv threshold to 0.000316228
+init E= -73.4634959691416
+  HOMO = 0.0126258991437902  LUMO = 1.0600756983191
+cycle= 1 E= -82.6951472239141  delta_E= -9.23  |g|= 0.616  |ddm|= 7.12
+  HOMO = -0.431763308491928  LUMO = 0.912867762640178
+cycle= 2 E= -82.8003422594257  delta_E= -0.105  |g|= 0.103  |ddm|= 0.712
+  HOMO = -0.387787732881713  LUMO = 0.941577960877984
+cycle= 3 E= -82.8023191068666  delta_E= -0.00198  |g|= 0.00404  |ddm|= 0.0835
+  HOMO = -0.388027472813046  LUMO = 0.941815523506693
+cycle= 4 E= -82.8023214928664  delta_E= -2.39e-06  |g|= 0.000165  |ddm|= 0.0028
+  HOMO = -0.388023112439677  LUMO = 0.941797486047148
+cycle= 5 E= -82.8023215034071  delta_E= -1.05e-08  |g|= 5.21e-06  |ddm|= 0.000223
+  HOMO = -0.388024363425129  LUMO = 0.941800621097946
+Extra cycle  E= -82.8023215034132  delta_E= -6.15e-12  |g|= 7.01e-07  |ddm|= 5.35e-06
+converged SCF energy = -82.8023215034132
+E(RCCSD) = -82.9009314766584  E_corr = -0.09860997324517992
+
+
+******** <class 'pyscf.tdscf.rhf.TDA'> for <class 'pyscf.pbc.scf.hf.RHF'> ********
+nstates = 5 singlet
+wfnsym = None
+conv_tol = 1e-09
+eigh lindep = 1e-12
+eigh level_shift = 0
+eigh max_space = 50
+eigh max_cycle = 100
+chkfile = /var/folders/9p/nhnq58pj3td7svw_pppk_syw0000gn/T/tmpn36dhlu8
+max_memory 4000 MB (current use 0 MB)
+
+
+Excited State energies (eV)
+[27.40058829 27.40058829 27.40058829 27.40058829 27.40058829]
+
+** Singlet excitation energies and oscillator strengths **
+Excited State   1:     27.40059 eV     45.25 nm  f=0.0001
+      14 -> 17        0.13772
+      15 -> 17       -0.49481
+      16 -> 17        0.41495
+Excited State   2:     27.40059 eV     45.25 nm  f=0.0001
+      12 -> 20       -0.10597
+      14 -> 17        0.60615
+      15 -> 17        0.24583
+Excited State   3:     27.40059 eV     45.25 nm  f=0.0001
+      14 -> 19        0.11976
+      15 -> 18       -0.12965
+      15 -> 19       -0.31586
+      16 -> 18       -0.41978
+      16 -> 19       -0.35899
+Excited State   4:     27.40059 eV     45.25 nm  f=0.0000
+      15 -> 18       -0.17349
+      15 -> 19        0.30624
+      16 -> 18       -0.45846
+      16 -> 19        0.30781
+Excited State   5:     27.40059 eV     45.25 nm  f=0.0001
+       8 -> 24        0.10224
+      14 -> 18        0.45795
+      14 -> 19       -0.11329
+      15 -> 18       -0.41636
+      15 -> 19       -0.10434
+      16 -> 18        0.17045
+
+** Transition electric dipole moments (AU) **
+state          X           Y           Z        Dip. S.      Osc.
+  1        -0.0089     -0.0052     -0.0003      0.0001      0.0001
+  2        -0.0050      0.0090     -0.0000      0.0001      0.0001
+  3        -0.0032      0.0010      0.0138      0.0002      0.0001
+  4        -0.0024     -0.0017      0.0008      0.0000      0.0000
+  5         0.0093      0.0024      0.0040      0.0001      0.0001
+
+** Transition velocity dipole moments (imaginary part, AU) **
+state          X           Y           Z        Dip. S.      Osc.
+  1        -0.0090     -0.0052     -0.0003      0.0001      0.0001
+  2        -0.0050      0.0090     -0.0000      0.0001      0.0001
+  3        -0.0032      0.0010      0.0139      0.0002      0.0001
+  4        -0.0024     -0.0017      0.0008      0.0000      0.0000
+  5         0.0094      0.0024      0.0041      0.0001      0.0001
+
+** Transition magnetic dipole moments (imaginary part, AU) **
+state          X           Y           Z
+  1        -0.0331      0.0183      0.0012
+  2        -0.0189     -0.0329      0.0009
+  3         0.0100      0.0042     -0.0060
+  4         0.0106     -0.0061      0.0510
+  5        -0.0336      0.0092      0.0142
