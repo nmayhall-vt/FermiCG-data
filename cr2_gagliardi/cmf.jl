@@ -11,7 +11,7 @@ h2 = npzread("ints_h2.npy")
 ints = InCoreInts(h0, h1, h2)
 
 clusters = [(1:8), (9:18), (19:26), (27:36)]
-init_fspace = [(4,4), (5,2), (4,4), (5,2)]
+init_fspace = [(4,4), (2,5), (4,4), (5,2)]
 #init_fspace = [(1,1), (2,0), (1,1), (2,0)]
 
 clusters = [MOCluster(i,collect(clusters[i])) for i = 1:length(clusters)]
