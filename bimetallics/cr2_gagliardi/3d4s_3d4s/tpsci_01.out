@@ -1,0 +1,687 @@
+IDX001:DIM16777216:001|002|003|004|005|006|007|008|009|010|011|012|
+ Number of embedded electrons a,b: 4.500000 4.500000
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 2  Dimension: 14520    
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 3  Dimension: 14520    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 4  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 5  Dimension: 792      
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 1  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 0  Dimension: 792      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 3  Dimension: 48400    
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 4  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 5  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 6  Dimension: 924      
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 2  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 1  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 0  Dimension: 924      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 3  Dimension: 108900   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 4  Dimension: 108900   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 5  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 6  Dimension: 11088    
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 7  Dimension: 792      
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 2  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 1  Dimension: 11088    
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 0  Dimension: 792      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 4  Dimension: 245025   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 5  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 6  Dimension: 60984    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 7  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 8  Dimension: 495      
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 3  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 2  Dimension: 60984    
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 1  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 0  Dimension: 495      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 4  Dimension: 392040   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 5  Dimension: 392040   
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 6  Dimension: 203280   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 7  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 8  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 9  Dimension: 220      
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 3  Dimension: 203280   
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 2  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 1  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 9  #β = 0  Dimension: 220      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 5  Dimension: 627264   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 6  Dimension: 457380   
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 7  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 8  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 9  Dimension: 2640     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 10 Dimension: 66       
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 4  Dimension: 457380   
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 3  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 2  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 9  #β = 1  Dimension: 2640     
+ FCIAnsatz:: #Orbs = 12  #α = 10 #β = 0  Dimension: 66       
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 5  Dimension: 731808   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 6  Dimension: 731808   
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 7  Dimension: 392040   
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 8  Dimension: 108900   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 9  Dimension: 14520    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 10 Dimension: 792      
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 11 Dimension: 12       
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 4  Dimension: 392040   
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 3  Dimension: 108900   
+ FCIAnsatz:: #Orbs = 12  #α = 9  #β = 2  Dimension: 14520    
+ FCIAnsatz:: #Orbs = 12  #α = 10 #β = 1  Dimension: 792      
+ FCIAnsatz:: #Orbs = 12  #α = 11 #β = 0  Dimension: 12       
+
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 5  Dimension: 392040   
+   State    1 Energy: -24.84529928 S2:   3.75000000
+   State    2 Energy: -24.75496856 S2:   0.75000000
+   State    3 Energy: -24.75496840 S2:   0.75000000
+   State    4 Energy: -24.75252850 S2:   0.75000000
+   State    5 Energy: -24.75252660 S2:   0.75000000
+   State    6 Energy: -24.74822830 S2:   0.75000000
+   State    7 Energy: -24.70701392 S2:   0.75000000
+   State    8 Energy: -24.69951009 S2:   0.75000000
+   State    9 Energy: -24.69950747 S2:   0.75000000
+   State   10 Energy: -24.64039126 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 5  Dimension: 52272    
+   State    1 Energy: -22.66599356 S2:   3.75000000
+   State    2 Energy: -22.66447705 S2:   3.75000000
+   State    3 Energy: -22.66447344 S2:   3.75000000
+   State    4 Energy: -22.64577739 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 7  Dimension: 174240   
+   State    1 Energy: -25.02265629 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 2  Dimension: 60984    
+   State    1 Energy: -23.86161140 S2:   6.00000000
+   State    2 Energy: -23.86159189 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 4  Dimension: 5940     
+   State    1 Energy: -19.22692278 S2:   3.75000000
+   State    2 Energy: -19.20987109 S2:   3.75000000
+   State    3 Energy: -19.20694364 S2:   3.75000000
+   State    4 Energy: -19.20694143 S2:   3.75000000
+   State    5 Energy: -19.19371455 S2:   3.75000000
+   State    6 Energy: -19.19355524 S2:   3.75000000
+   State    7 Energy: -19.19355330 S2:   3.75000000
+   State    8 Energy: -19.14050455 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 3  Dimension: 203280   
+   State    1 Energy: -24.84529928 S2:   3.75000000
+   State    2 Energy: -24.64039126 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 6  Dimension: 457380   
+   State    1 Energy: -25.15380918 S2:   2.00000000
+   State    2 Energy: -25.14946008 S2:   2.00000000
+   State    3 Energy: -25.14945567 S2:   2.00000000
+   State    4 Energy: -25.02265629 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 6  Dimension: 60984    
+   State    1 Energy: -23.86161140 S2:   6.00000000
+   State    2 Energy: -23.86159189 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 4  Dimension: 457380   
+   State    1 Energy: -25.15380918 S2:   2.00000000
+   State    2 Energy: -25.14946008 S2:   2.00000000
+   State    3 Energy: -25.14945567 S2:   2.00000000
+   State    4 Energy: -25.02265629 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 5  Dimension: 627264   
+   State    1 Energy: -25.15380918 S2:   2.00000000
+   State    2 Energy: -25.14946008 S2:   2.00000000
+   State    3 Energy: -25.14945567 S2:   2.00000000
+   State    4 Energy: -25.10415052 S2:  -0.00000000
+   State    5 Energy: -25.10414973 S2:   0.00000000
+   State    6 Energy: -25.09866587 S2:  -0.00000000
+   State    7 Energy: -25.09281073 S2:   0.00000000
+   State    8 Energy: -25.09280633 S2:  -0.00000000
+   State    9 Energy: -25.03513684 S2:  -0.00000000
+   State   10 Energy: -25.02265629 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 2  Dimension: 14520    
+   State    1 Energy: -19.22692278 S2:   3.75000000
+   State    2 Energy: -19.20987109 S2:   3.75000000
+   State    3 Energy: -19.20694364 S2:   3.75000000
+   State    4 Energy: -19.20694143 S2:   3.75000000
+   State    5 Energy: -19.19371455 S2:   3.75000000
+   State    6 Energy: -19.19355524 S2:   3.75000000
+   State    7 Energy: -19.19355330 S2:   3.75000000
+   State    8 Energy: -19.14126305 S2:   0.75000000
+   State    9 Energy: -19.14126243 S2:   0.75000000
+   State   10 Energy: -19.14050455 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 3  Dimension: 48400    
+   State    1 Energy: -21.10571013 S2:   6.00000000
+   State    2 Energy: -21.10570557 S2:   6.00000000
+   State    3 Energy: -21.09731098 S2:   6.00000000
+   State    4 Energy: -21.07724340 S2:   2.00000000
+   State    5 Energy: -21.07724150 S2:   2.00000000
+   State    6 Energy: -21.07645051 S2:   2.00000000
+   State    7 Energy: -21.07059329 S2:   2.00000000
+   State    8 Energy: -21.06701535 S2:   2.00000000
+   State    9 Energy: -21.06701354 S2:   2.00000000
+   State   10 Energy: -21.06389028 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 1  Dimension: 5940     
+   State    1 Energy: -19.22692278 S2:   3.75000000
+   State    2 Energy: -19.20987109 S2:   3.75000000
+   State    3 Energy: -19.20694364 S2:   3.75000000
+   State    4 Energy: -19.20694143 S2:   3.75000000
+   State    5 Energy: -19.19371455 S2:   3.75000000
+   State    6 Energy: -19.19355524 S2:   3.75000000
+   State    7 Energy: -19.19355330 S2:   3.75000000
+   State    8 Energy: -19.14050455 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 7  Dimension: 392040   
+   State    1 Energy: -24.81791055 S2:   3.75000000
+   State    2 Energy: -24.81790537 S2:   3.75000000
+   State    3 Energy: -24.81551246 S2:   3.75000000
+   State    4 Energy: -24.78754913 S2:   3.75000000
+   State    5 Energy: -24.78657384 S2:   3.75000000
+   State    6 Energy: -24.78657116 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 4  Dimension: 108900   
+   State    1 Energy: -22.68467362 S2:   0.75000000
+   State    2 Energy: -22.68467272 S2:   0.75000000
+   State    3 Energy: -22.68116805 S2:   0.75000000
+   State    4 Energy: -22.66599356 S2:   3.75000000
+   State    5 Energy: -22.66447705 S2:   3.75000000
+   State    6 Energy: -22.66447344 S2:   3.75000000
+   State    7 Energy: -22.64962970 S2:   0.75000000
+   State    8 Energy: -22.64718178 S2:   0.75000000
+   State    9 Energy: -22.64717966 S2:   0.75000000
+   State   10 Energy: -22.64577739 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 6  Dimension: 731808   
+   State    1 Energy: -25.01246622 S2:   0.75000000
+   State    2 Energy: -25.01245915 S2:   0.75000000
+   State    3 Energy: -25.00518722 S2:   0.75000000
+   State    4 Energy: -24.81791055 S2:   3.75000000
+   State    5 Energy: -24.81790537 S2:   3.75000000
+   State    6 Energy: -24.81551246 S2:   3.75000000
+   State    7 Energy: -24.78754913 S2:   3.75000000
+   State    8 Energy: -24.78657384 S2:   3.75000000
+   State    9 Energy: -24.78657116 S2:   3.75000000
+   State   10 Energy: -24.77283217 S2:   0.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 3  Dimension: 174240   
+   State    1 Energy: -25.02265629 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 5  Dimension: 9504     
+   State    1 Energy: -21.10571013 S2:   6.00000000
+   State    2 Energy: -21.10570557 S2:   6.00000000
+   State    3 Energy: -21.09731098 S2:   6.00000000
+   State    4 Energy: -21.06389028 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 4  Dimension: 392040   
+   State    1 Energy: -24.81791055 S2:   3.75000000
+   State    2 Energy: -24.81790537 S2:   3.75000000
+   State    3 Energy: -24.81551246 S2:   3.75000000
+   State    4 Energy: -24.78754913 S2:   3.75000000
+   State    5 Energy: -24.78657384 S2:   3.75000000
+   State    6 Energy: -24.78657116 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 5  Dimension: 731808   
+   State    1 Energy: -25.01246622 S2:   0.75000000
+   State    2 Energy: -25.01245915 S2:   0.75000000
+   State    3 Energy: -25.00518722 S2:   0.75000000
+   State    4 Energy: -24.81791055 S2:   3.75000000
+   State    5 Energy: -24.81790537 S2:   3.75000000
+   State    6 Energy: -24.81551246 S2:   3.75000000
+   State    7 Energy: -24.78754913 S2:   3.75000000
+   State    8 Energy: -24.78657384 S2:   3.75000000
+   State    9 Energy: -24.78657116 S2:   3.75000000
+   State   10 Energy: -24.77283217 S2:   0.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 2  Dimension: 32670    
+   State    1 Energy: -21.10571013 S2:   6.00000000
+   State    2 Energy: -21.10570557 S2:   6.00000000
+   State    3 Energy: -21.09731098 S2:   6.00000000
+   State    4 Energy: -21.07724340 S2:   2.00000000
+   State    5 Energy: -21.07724150 S2:   2.00000000
+   State    6 Energy: -21.07645051 S2:   2.00000000
+   State    7 Energy: -21.07059329 S2:   2.00000000
+   State    8 Energy: -21.06701535 S2:   2.00000000
+   State    9 Energy: -21.06701354 S2:   2.00000000
+   State   10 Energy: -21.06389028 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 1  Dimension: 9504     
+   State    1 Energy: -21.10571013 S2:   6.00000000
+   State    2 Energy: -21.10570557 S2:   6.00000000
+   State    3 Energy: -21.09731098 S2:   6.00000000
+   State    4 Energy: -21.06389028 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 3  Dimension: 108900   
+   State    1 Energy: -22.68467362 S2:   0.75000000
+   State    2 Energy: -22.68467272 S2:   0.75000000
+   State    3 Energy: -22.68116805 S2:   0.75000000
+   State    4 Energy: -22.66599356 S2:   3.75000000
+   State    5 Energy: -22.66447705 S2:   3.75000000
+   State    6 Energy: -22.66447344 S2:   3.75000000
+   State    7 Energy: -22.64962970 S2:   0.75000000
+   State    8 Energy: -22.64718178 S2:   0.75000000
+   State    9 Energy: -22.64717966 S2:   0.75000000
+   State   10 Energy: -22.64577739 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 3  Dimension: 14520    
+   State    1 Energy: -19.22692278 S2:   3.75000000
+   State    2 Energy: -19.20987109 S2:   3.75000000
+   State    3 Energy: -19.20694364 S2:   3.75000000
+   State    4 Energy: -19.20694143 S2:   3.75000000
+   State    5 Energy: -19.19371455 S2:   3.75000000
+   State    6 Energy: -19.19355524 S2:   3.75000000
+   State    7 Energy: -19.19355330 S2:   3.75000000
+   State    8 Energy: -19.14126305 S2:   0.75000000
+   State    9 Energy: -19.14126243 S2:   0.75000000
+   State   10 Energy: -19.14050455 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 4  Dimension: 245025   
+   State    1 Energy: -23.94873283 S2:   2.00000000
+   State    2 Energy: -23.94872950 S2:   2.00000000
+   State    3 Energy: -23.94349735 S2:   2.00000000
+   State    4 Energy: -23.88149218 S2:   0.00000000
+   State    5 Energy: -23.87909718 S2:   0.00000000
+   State    6 Energy: -23.87909571 S2:  -0.00000000
+   State    7 Energy: -23.87805699 S2:   0.00000000
+   State    8 Energy: -23.87805543 S2:   0.00000000
+   State    9 Energy: -23.86161140 S2:   6.00000000
+   State   10 Energy: -23.86159189 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 5  Dimension: 174240   
+   State    1 Energy: -23.94873283 S2:   2.00000000
+   State    2 Energy: -23.94872950 S2:   2.00000000
+   State    3 Energy: -23.94349735 S2:   2.00000000
+   State    4 Energy: -23.86161140 S2:   6.00000000
+   State    5 Energy: -23.86159189 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 4  Dimension: 32670    
+   State    1 Energy: -21.10571013 S2:   6.00000000
+   State    2 Energy: -21.10570557 S2:   6.00000000
+   State    3 Energy: -21.09731098 S2:   6.00000000
+   State    4 Energy: -21.07724340 S2:   2.00000000
+   State    5 Energy: -21.07724150 S2:   2.00000000
+   State    6 Energy: -21.07645051 S2:   2.00000000
+   State    7 Energy: -21.07059329 S2:   2.00000000
+   State    8 Energy: -21.06701535 S2:   2.00000000
+   State    9 Energy: -21.06701354 S2:   2.00000000
+   State   10 Energy: -21.06389028 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 2  Dimension: 52272    
+   State    1 Energy: -22.66599356 S2:   3.75000000
+   State    2 Energy: -22.66447705 S2:   3.75000000
+   State    3 Energy: -22.66447344 S2:   3.75000000
+   State    4 Energy: -22.64577739 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 6  Dimension: 203280   
+   State    1 Energy: -24.84529928 S2:   3.75000000
+   State    2 Energy: -24.64039126 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 3  Dimension: 174240   
+   State    1 Energy: -23.94873283 S2:   2.00000000
+   State    2 Energy: -23.94872950 S2:   2.00000000
+   State    3 Energy: -23.94349735 S2:   2.00000000
+   State    4 Energy: -23.86161140 S2:   6.00000000
+   State    5 Energy: -23.86159189 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 4  Dimension: 392040   
+   State    1 Energy: -24.84529928 S2:   3.75000000
+   State    2 Energy: -24.75496856 S2:   0.75000000
+   State    3 Energy: -24.75496840 S2:   0.75000000
+   State    4 Energy: -24.75252850 S2:   0.75000000
+   State    5 Energy: -24.75252660 S2:   0.75000000
+   State    6 Energy: -24.74822830 S2:   0.75000000
+   State    7 Energy: -24.70701392 S2:   0.75000000
+   State    8 Energy: -24.69951009 S2:   0.75000000
+   State    9 Energy: -24.69950747 S2:   0.75000000
+   State   10 Energy: -24.64039126 S2:   3.75000000
+IDX002:DIM16777216:013|014|015|016|017|018|019|020|021|022|023|024|
+ Number of embedded electrons a,b: 4.500000 4.500000
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 2  Dimension: 4356     
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 3  Dimension: 2640     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 4  Dimension: 495      
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 1  Dimension: 2640     
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 0  Dimension: 495      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 2  Dimension: 14520    
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 3  Dimension: 14520    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 4  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 5  Dimension: 792      
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 1  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 0  Dimension: 792      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 3  Dimension: 48400    
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 4  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 5  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 6  Dimension: 924      
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 2  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 1  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 0  Dimension: 924      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 3  Dimension: 108900   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 4  Dimension: 108900   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 5  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 6  Dimension: 11088    
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 7  Dimension: 792      
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 2  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 1  Dimension: 11088    
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 0  Dimension: 792      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 4  Dimension: 245025   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 5  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 6  Dimension: 60984    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 7  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 8  Dimension: 495      
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 3  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 2  Dimension: 60984    
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 1  Dimension: 9504     
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 0  Dimension: 495      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 4  Dimension: 392040   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 5  Dimension: 392040   
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 6  Dimension: 203280   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 7  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 8  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 9  Dimension: 220      
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 3  Dimension: 203280   
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 2  Dimension: 52272    
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 1  Dimension: 5940     
+ FCIAnsatz:: #Orbs = 12  #α = 9  #β = 0  Dimension: 220      
+ Preparing to compute : 
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 5  Dimension: 627264   
+ Compute higher and lower Ms components
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 6  Dimension: 457380   
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 7  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 8  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 9  Dimension: 2640     
+ FCIAnsatz:: #Orbs = 12  #α = 0  #β = 10 Dimension: 66       
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 4  Dimension: 457380   
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 3  Dimension: 174240   
+ FCIAnsatz:: #Orbs = 12  #α = 8  #β = 2  Dimension: 32670    
+ FCIAnsatz:: #Orbs = 12  #α = 9  #β = 1  Dimension: 2640     
+ FCIAnsatz:: #Orbs = 12  #α = 10 #β = 0  Dimension: 66       
+
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 5  Dimension: 392040   
+   State    1 Energy: -24.84537145 S2:   3.75000000
+   State    2 Energy: -24.75504124 S2:   0.75000000
+   State    3 Energy: -24.75504018 S2:   0.75000000
+   State    4 Energy: -24.75260022 S2:   0.75000000
+   State    5 Energy: -24.75259946 S2:   0.75000000
+   State    6 Energy: -24.74830048 S2:   0.75000000
+   State    7 Energy: -24.70708623 S2:   0.75000000
+   State    8 Energy: -24.69958224 S2:   0.75000000
+   State    9 Energy: -24.69957957 S2:   0.75000000
+   State   10 Energy: -24.64046187 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 1  Dimension: 2640     
+   State    1 Energy: -16.81941083 S2:   2.00000000
+   State    2 Energy: -16.81940896 S2:   2.00000000
+   State    3 Energy: -16.81582250 S2:   2.00000000
+   State    4 Energy: -16.79191520 S2:   2.00000000
+   State    5 Energy: -16.79191286 S2:   2.00000000
+   State    6 Energy: -16.78975357 S2:   2.00000000
+   State    7 Energy: -16.75938090 S2:   2.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 5  Dimension: 52272    
+   State    1 Energy: -22.66606939 S2:   3.75000000
+   State    2 Energy: -22.66455283 S2:   3.75000000
+   State    3 Energy: -22.66454932 S2:   3.75000000
+   State    4 Energy: -22.64585313 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 7  Dimension: 174240   
+   State    1 Energy: -25.02272528 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 2  Dimension: 60984    
+   State    1 Energy: -23.86168392 S2:   6.00000000
+   State    2 Energy: -23.86166733 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 3  Dimension: 2640     
+   State    1 Energy: -16.81941083 S2:   2.00000000
+   State    2 Energy: -16.81940896 S2:   2.00000000
+   State    3 Energy: -16.81582250 S2:   2.00000000
+   State    4 Energy: -16.79191520 S2:   2.00000000
+   State    5 Energy: -16.79191286 S2:   2.00000000
+   State    6 Energy: -16.78975357 S2:   2.00000000
+   State    7 Energy: -16.75938090 S2:   2.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 4  Dimension: 5940     
+   State    1 Energy: -19.22699801 S2:   3.75000000
+   State    2 Energy: -19.20994693 S2:   3.75000000
+   State    3 Energy: -19.20702012 S2:   3.75000000
+   State    4 Energy: -19.20701668 S2:   3.75000000
+   State    5 Energy: -19.19379102 S2:   3.75000000
+   State    6 Energy: -19.19363069 S2:   3.75000000
+   State    7 Energy: -19.19363009 S2:   3.75000000
+   State    8 Energy: -19.14058026 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 3  Dimension: 203280   
+   State    1 Energy: -24.84537145 S2:   3.75000000
+   State    2 Energy: -24.64046187 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 6  Dimension: 457380   
+   State    1 Energy: -25.15387982 S2:   2.00000000
+   State    2 Energy: -25.14953150 S2:   2.00000000
+   State    3 Energy: -25.14952487 S2:   2.00000000
+   State    4 Energy: -25.02272528 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 6  Dimension: 60984    
+   State    1 Energy: -23.86168392 S2:   6.00000000
+   State    2 Energy: -23.86166733 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 6  #β = 4  Dimension: 457380   
+   State    1 Energy: -25.15387982 S2:   2.00000000
+   State    2 Energy: -25.14953150 S2:   2.00000000
+   State    3 Energy: -25.14952487 S2:   2.00000000
+   State    4 Energy: -25.02272528 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 5  Dimension: 627264   
+   State    1 Energy: -25.15387982 S2:   2.00000000
+   State    2 Energy: -25.14953150 S2:   2.00000000
+   State    3 Energy: -25.14952487 S2:   2.00000000
+   State    4 Energy: -25.10422207 S2:  -0.00000000
+   State    5 Energy: -25.10421951 S2:  -0.00000000
+   State    6 Energy: -25.09873614 S2:  -0.00000000
+   State    7 Energy: -25.09288055 S2:   0.00000000
+   State    8 Energy: -25.09287721 S2:  -0.00000000
+   State    9 Energy: -25.03520708 S2:   0.00000000
+   State   10 Energy: -25.02272528 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 2  Dimension: 14520    
+   State    1 Energy: -19.22699801 S2:   3.75000000
+   State    2 Energy: -19.20994693 S2:   3.75000000
+   State    3 Energy: -19.20702012 S2:   3.75000000
+   State    4 Energy: -19.20701668 S2:   3.75000000
+   State    5 Energy: -19.19379102 S2:   3.75000000
+   State    6 Energy: -19.19363069 S2:   3.75000000
+   State    7 Energy: -19.19363009 S2:   3.75000000
+   State    8 Energy: -19.14133934 S2:   0.75000000
+   State    9 Energy: -19.14133758 S2:   0.75000000
+   State   10 Energy: -19.14058026 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 3  Dimension: 48400    
+   State    1 Energy: -21.10578616 S2:   6.00000000
+   State    2 Energy: -21.10578233 S2:   6.00000000
+   State    3 Energy: -21.09738738 S2:   6.00000000
+   State    4 Energy: -21.07732039 S2:   2.00000000
+   State    5 Energy: -21.07731790 S2:   2.00000000
+   State    6 Energy: -21.07652728 S2:   2.00000000
+   State    7 Energy: -21.07066971 S2:   2.00000000
+   State    8 Energy: -21.06709174 S2:   2.00000000
+   State    9 Energy: -21.06709048 S2:   2.00000000
+   State   10 Energy: -21.06396468 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 1  Dimension: 5940     
+   State    1 Energy: -19.22699801 S2:   3.75000000
+   State    2 Energy: -19.20994693 S2:   3.75000000
+   State    3 Energy: -19.20702012 S2:   3.75000000
+   State    4 Energy: -19.20701668 S2:   3.75000000
+   State    5 Energy: -19.19379102 S2:   3.75000000
+   State    6 Energy: -19.19363069 S2:   3.75000000
+   State    7 Energy: -19.19363009 S2:   3.75000000
+   State    8 Energy: -19.14058026 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 4  Dimension: 108900   
+   State    1 Energy: -22.68475050 S2:   0.75000000
+   State    2 Energy: -22.68474845 S2:   0.75000000
+   State    3 Energy: -22.68124450 S2:   0.75000000
+   State    4 Energy: -22.66606939 S2:   3.75000000
+   State    5 Energy: -22.66455283 S2:   3.75000000
+   State    6 Energy: -22.66454932 S2:   3.75000000
+   State    7 Energy: -22.64970542 S2:   0.75000000
+   State    8 Energy: -22.64725808 S2:   0.75000000
+   State    9 Energy: -22.64725480 S2:   0.75000000
+   State   10 Energy: -22.64585313 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 7  #β = 3  Dimension: 174240   
+   State    1 Energy: -25.02272528 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 1  #β = 5  Dimension: 9504     
+   State    1 Energy: -21.10578616 S2:   6.00000000
+   State    2 Energy: -21.10578233 S2:   6.00000000
+   State    3 Energy: -21.09738738 S2:   6.00000000
+   State    4 Energy: -21.06396468 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 2  Dimension: 32670    
+   State    1 Energy: -21.10578616 S2:   6.00000000
+   State    2 Energy: -21.10578233 S2:   6.00000000
+   State    3 Energy: -21.09738738 S2:   6.00000000
+   State    4 Energy: -21.07732039 S2:   2.00000000
+   State    5 Energy: -21.07731790 S2:   2.00000000
+   State    6 Energy: -21.07652728 S2:   2.00000000
+   State    7 Energy: -21.07066971 S2:   2.00000000
+   State    8 Energy: -21.06709174 S2:   2.00000000
+   State    9 Energy: -21.06709048 S2:   2.00000000
+   State   10 Energy: -21.06396468 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 1  Dimension: 9504     
+   State    1 Energy: -21.10578616 S2:   6.00000000
+   State    2 Energy: -21.10578233 S2:   6.00000000
+   State    3 Energy: -21.09738738 S2:   6.00000000
+   State    4 Energy: -21.06396468 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 2  Dimension: 4356     
+   State    1 Energy: -16.81941083 S2:   2.00000000
+   State    2 Energy: -16.81940896 S2:   2.00000000
+   State    3 Energy: -16.81582250 S2:   2.00000000
+   State    4 Energy: -16.79191520 S2:   2.00000000
+   State    5 Energy: -16.79191286 S2:   2.00000000
+   State    6 Energy: -16.78975357 S2:   2.00000000
+   State    7 Energy: -16.75938090 S2:   2.00000000
+   State    8 Energy: -16.74830217 S2:   0.00000000
+   State    9 Energy: -16.74266664 S2:   0.00000000
+   State   10 Energy: -16.74266486 S2:   0.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 3  Dimension: 108900   
+   State    1 Energy: -22.68475050 S2:   0.75000000
+   State    2 Energy: -22.68474845 S2:   0.75000000
+   State    3 Energy: -22.68124450 S2:   0.75000000
+   State    4 Energy: -22.66606939 S2:   3.75000000
+   State    5 Energy: -22.66455283 S2:   3.75000000
+   State    6 Energy: -22.66454932 S2:   3.75000000
+   State    7 Energy: -22.64970542 S2:   0.75000000
+   State    8 Energy: -22.64725808 S2:   0.75000000
+   State    9 Energy: -22.64725480 S2:   0.75000000
+   State   10 Energy: -22.64585313 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 3  Dimension: 14520    
+   State    1 Energy: -19.22699801 S2:   3.75000000
+   State    2 Energy: -19.20994693 S2:   3.75000000
+   State    3 Energy: -19.20702012 S2:   3.75000000
+   State    4 Energy: -19.20701668 S2:   3.75000000
+   State    5 Energy: -19.19379102 S2:   3.75000000
+   State    6 Energy: -19.19363069 S2:   3.75000000
+   State    7 Energy: -19.19363009 S2:   3.75000000
+   State    8 Energy: -19.14133934 S2:   0.75000000
+   State    9 Energy: -19.14133758 S2:   0.75000000
+   State   10 Energy: -19.14058026 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 4  #β = 4  Dimension: 245025   
+   State    1 Energy: -23.94880781 S2:   2.00000000
+   State    2 Energy: -23.94880386 S2:   2.00000000
+   State    3 Energy: -23.94357194 S2:   2.00000000
+   State    4 Energy: -23.88156698 S2:  -0.00000000
+   State    5 Energy: -23.87917387 S2:   0.00000000
+   State    6 Energy: -23.87916838 S2:   0.00000000
+   State    7 Energy: -23.87813259 S2:   0.00000000
+   State    8 Energy: -23.87812921 S2:   0.00000000
+   State    9 Energy: -23.86168392 S2:   6.00000000
+   State   10 Energy: -23.86166733 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 5  Dimension: 174240   
+   State    1 Energy: -23.94880781 S2:   2.00000000
+   State    2 Energy: -23.94880386 S2:   2.00000000
+   State    3 Energy: -23.94357194 S2:   2.00000000
+   State    4 Energy: -23.86168392 S2:   6.00000000
+   State    5 Energy: -23.86166733 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 2  #β = 4  Dimension: 32670    
+   State    1 Energy: -21.10578616 S2:   6.00000000
+   State    2 Energy: -21.10578233 S2:   6.00000000
+   State    3 Energy: -21.09738738 S2:   6.00000000
+   State    4 Energy: -21.07732039 S2:   2.00000000
+   State    5 Energy: -21.07731790 S2:   2.00000000
+   State    6 Energy: -21.07652728 S2:   2.00000000
+   State    7 Energy: -21.07066971 S2:   2.00000000
+   State    8 Energy: -21.06709174 S2:   2.00000000
+   State    9 Energy: -21.06709048 S2:   2.00000000
+   State   10 Energy: -21.06396468 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 2  Dimension: 52272    
+   State    1 Energy: -22.66606939 S2:   3.75000000
+   State    2 Energy: -22.66455283 S2:   3.75000000
+   State    3 Energy: -22.66454932 S2:   3.75000000
+   State    4 Energy: -22.64585313 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 3  #β = 6  Dimension: 203280   
+   State    1 Energy: -24.84537145 S2:   3.75000000
+   State    2 Energy: -24.64046187 S2:   3.75000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 3  Dimension: 174240   
+   State    1 Energy: -23.94880781 S2:   2.00000000
+   State    2 Energy: -23.94880386 S2:   2.00000000
+   State    3 Energy: -23.94357194 S2:   2.00000000
+   State    4 Energy: -23.86168392 S2:   6.00000000
+   State    5 Energy: -23.86166733 S2:   6.00000000
+
+ FCIAnsatz:: #Orbs = 12  #α = 5  #β = 4  Dimension: 392040   
+   State    1 Energy: -24.84537145 S2:   3.75000000
+   State    2 Energy: -24.75504124 S2:   0.75000000
+   State    3 Energy: -24.75504018 S2:   0.75000000
+   State    4 Energy: -24.75260022 S2:   0.75000000
+   State    5 Energy: -24.75259946 S2:   0.75000000
+   State    6 Energy: -24.74830048 S2:   0.75000000
+   State    7 Energy: -24.70708623 S2:   0.75000000
+   State    8 Energy: -24.69958224 S2:   0.75000000
+   State    9 Energy: -24.69957957 S2:   0.75000000
+   State   10 Energy: -24.64046187 S2:   3.75000000
+ Remove duplicates
+ Number of terms reduced from    62 to    34
+IDX001:DIM16777216:001|002|003|004|005|006|007|008|009|010|011|012|
+IDX002:DIM16777216:013|014|015|016|017|018|019|020|021|022|023|024|
+ERROR: LoadError: MethodError: no method matching add_fockconfig!(::TPSCIstate{Float64, 2, 4}, ::FockConfig{4})
+Closest candidates are:
+  add_fockconfig!(::FermiCG.AbstractState, !Matched::Array{Tuple{T, T}, 1}) where T<:Integer at ~/code/FermiCG/src/type_AbstractState.jl:11
+  add_fockconfig!(!Matched::FermiCG.BSstate{T, N}, ::FockConfig) where {T, N} at ~/code/FermiCG/src/type_BSstate.jl:399
+  add_fockconfig!(!Matched::BSTstate{T, N, R}, ::FockConfig) where {T, N, R} at ~/code/FermiCG/src/type_BSTstate.jl:309
+  ...
+Stacktrace:
+ [1] TPSCIstate(clusters::Vector{MOCluster}, fconfig::FockConfig{4}; T::Type, R::Int64)
+   @ FermiCG ~/code/FermiCG/src/type_TPSCIstate.jl:72
+ [2] top-level scope
+   @ ~/code/FermiCG-data/cr2_gagliardi/3d4s_3d4s/tpsci_01.jl:25
+in expression starting at /Users/nmayhall/code/FermiCG-data/cr2_gagliardi/3d4s_3d4s/tpsci_01.jl:25
