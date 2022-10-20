@@ -19,8 +19,10 @@ d1 = RDM1(Pa, Pb)
 ssd1 = ssRDM1(d1)
 ssd2 = ssRDM2(RDM2(d1))
 @printf(" Input energy:    %12.8f\n", compute_energy(ints, ssd1, ssd2))
-clusters = [(1:4), (5:9), (10:14)]
-init_fspace = [(4,4), (5,0), (5,0)]
+#clusters = [(1:4), (5:9), (10:14)]
+#init_fspace = [(4,4), (5,0), (5,0)]
+clusters = [(1:5), (6:10), (11:14)]
+init_fspace = [(5,0), (0,5), (4,4)]
 
 
 clusters = [MOCluster(i,collect(clusters[i])) for i = 1:length(clusters)]
@@ -51,7 +53,7 @@ d1 = RDM1(n_orb(ints))
 #ints = orbital_rotation(ints, U)
 
 e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace, d1,
-                           maxiter_oo   = 200, 
+                           maxiter_oo   = 300, 
                            maxiter_ci   = 200, 
                            maxiter_d1   = 200, 
                            max_ss_size  = 12,
@@ -62,7 +64,7 @@ e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace, d1,
                            sequential   = false, 
                            alpha        = .1,
                            use_pyscf    = false,
-                           diis_start   = 1)
+                           diis_start   = 10)
 
 ints = orbital_rotation(ints, U)
 
