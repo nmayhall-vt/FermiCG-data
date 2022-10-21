@@ -13,7 +13,7 @@ using NPZ
 n_elec_a = 5
 n_elec_b = 5
 
-norb = size(h1,1)
+norb = n_orb(ints)
 ansatz = FCIAnsatz(norb, n_elec_a, n_elec_b)
 
 display(ansatz)
