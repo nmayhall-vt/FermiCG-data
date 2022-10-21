@@ -4,6 +4,8 @@ using NPZ
 using InCoreIntegrals
 using RDM
 using JLD2
+using Printf
+using LinearAlgebra
 
 C = npzread("mo_coeffs.npy")
 S = npzread("overlap_mat.npy")
@@ -19,10 +21,8 @@ d1 = RDM1(Pa, Pb)
 ssd1 = ssRDM1(d1)
 ssd2 = ssRDM2(RDM2(d1))
 @printf(" Input energy:    %12.8f\n", compute_energy(ints, ssd1, ssd2))
-#clusters = [(1:4), (5:9), (10:14)]
-#init_fspace = [(4,4), (5,0), (5,0)]
-clusters = [(1:5), (6:10), (11:14)]
-init_fspace = [(5,0), (0,5), (4,4)]
+clusters = [(1:5), (6:10)]
+init_fspace = [(5,0), (0,5)]
 
 
 clusters = [MOCluster(i,collect(clusters[i])) for i = 1:length(clusters)]
@@ -62,8 +62,7 @@ e_cmf, U, d1 = ClusterMeanField.cmf_oo_diis(ints, clusters, init_fspace, d1,
                            tol_d1       = 1e-9, 
                            tol_ci       = 1e-11, 
                            sequential   = false, 
-                           alpha        = .01,
-                           #use_pyscf    = false,
+                           alpha        = .1,
                            diis_start   = 10)
 
 ints = orbital_rotation(ints, U)
