@@ -1,0 +1,21 @@
+{
+  "system": "chem",
+  "n_up": 18,
+  "n_dn": 18,
+  "eps_vars": [
+    0.00005
+  ],
+  "n_states": 13,
+  "eps_vars_schedule": [
+    0.002,
+    0.001,
+    0.0005,
+    0.0002,
+    0.0001
+  ],
+  "chem": {
+    "point_group": "C1"
+  },
+  "eps_pt": 0.0000000001,
+  "s2": true
+}
