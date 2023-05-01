@@ -28,7 +28,9 @@ init_fspace = [(3, 0), (1, 1), (1, 1)]#
 clusters = [(1, 2, 3),(4, 5)]
 init_fspace = [(3, 0), (2, 2)]# 
 clusters = [(1, 2, 3, 4, 5)]
-init_fspace = [(3, 3)]# 
+
+init_fspace=  [(3, 2), (2, 2), (1, 1)]
+clusters   =  [[1, 2, 3, 4], [5, 6], [7]]
 
 
 
@@ -44,7 +46,7 @@ d1 = RDM1(n_orb(ints))
 
 # # Do CMF
 e_cmf, U, d1 = ClusterMeanField.cmf_oo(ints, clusters, init_fspace, RDM1(n_orb(ints)),
-    verbose=0, sequential=true, max_iter_oo=1)
+    verbose=0, sequential=true, max_iter_oo=50)
 
 ints = orbital_rotation(ints, U)
 C = C*U# Do CMF
