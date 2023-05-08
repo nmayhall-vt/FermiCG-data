@@ -30,6 +30,6 @@ eci, v = FermiCG.tps_ci_direct(ci_vector, cluster_ops, clustered_ham);
 
 e0a, v0a = FermiCG.tpsci_ci(ci_vector, cluster_ops, clustered_ham, 
                             incremental  = true,
-                            thresh_cipsi = 1e-2, 
+                            thresh_cipsi = 1e-3, 
                             thresh_foi   = 1e-5, 
                             thresh_asci  = -1);

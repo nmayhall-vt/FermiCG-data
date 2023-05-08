@@ -11,33 +11,14 @@ h1 = npzread("ints_h1.npy")
 h2 = npzread("ints_h2.npy")
 ints = InCoreInts(h0, h1, h2)
 
-clusters = [(1:6), (7:10), (11:16)]
-init_fspace = [(3, 0), (4, 4), (3, 0)]
-
-clusters = [(1,2,3,4,5,6,11,12,13,14,15,16), (7:10)]
-init_fspace = [(6, 0), (4, 4)]
-
-clusters = [(1:8), (9:16)]
-init_fspace = [(5, 2), (2, 5)]
-
-clusters = [(1,2,3,11,12,13),(4,5,6,14,15,16), (7:10)]
-init_fspace = [(3, 3), (0,0), (4, 4)]
-
-clusters = [(1, 2, 3),(4, ),(5, )]
-init_fspace = [(3, 0), (1, 1), (1, 1)]# 
-clusters = [(1, 2, 3),(4, 5)]
-init_fspace = [(3, 0), (2, 2)]# 
-clusters = [(1, 2, 3, 4, 5)]
-
-init_fspace=  [(3, 2), (2, 2), (1, 1)]
-clusters   =  [[1, 2, 3, 4], [5, 6], [7]]
-
-init_fspace=  [(4, 1), (4, 4), (4, 1)]
-clusters   =  [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10], [11, 12, 13, 14, 15, 16]]
+Pa = npzread("Pa.npy")
+Pb = npzread("Pb.npy")
+@printf(" Input energy:    %12.8f\n", compute_energy(ints, RDM1(Pa, Pb)))
 
 
-# clusters = [(1:6)]
-# init_fspace = [(6, 0)]
+init_fspace =  [(4, 1), (4, 4), (4, 1)]
+clusters    =  [[1, 2, 3, 4, 5, 6], [7, 8, 9, 10], [11, 12, 13, 14, 15, 16]]
+
 
 
 clusters = [MOCluster(i, collect(clusters[i])) for i = 1:length(clusters)]
