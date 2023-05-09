@@ -54,11 +54,3 @@ ebst, vbst = FermiCG.ci_solve(ci_vector, cluster_ops, clustered_ham)
 ebst, vbst = FermiCG.block_sparse_tucker(vbst, cluster_ops, clustered_ham, thresh_var=1e-2, thresh_foi=1e-6, thresh_pt=1e-3)
 e2_bst = FermiCG.compute_pt2_energy(vbst, cluster_ops, clustered_ham, thresh_foi=1e-6);
 e2_bst = FermiCG.compute_pt2_energy(vbst, cluster_ops, clustered_ham, thresh_foi=1e-7);
-
-ebst, vbst = FermiCG.block_sparse_tucker(vbst, cluster_ops, clustered_ham, thresh_var=1e-2, thresh_foi=1e-6, thresh_pt=1e-4)
-e2_bst = FermiCG.compute_pt2_energy(vbst, cluster_ops, clustered_ham, thresh_foi=1e-6);
-e2_bst = FermiCG.compute_pt2_energy(vbst, cluster_ops, clustered_ham, thresh_foi=1e-7);
-
-ebst, vbst = FermiCG.block_sparse_tucker(vbst, cluster_ops, clustered_ham, thresh_var=1e-2, thresh_foi=1e-6, thresh_pt=1e-5)
-e2_bst = FermiCG.compute_pt2_energy(vbst, cluster_ops, clustered_ham, thresh_foi=1e-6);
-e2_bst = FermiCG.compute_pt2_energy(vbst, cluster_ops, clustered_ham, thresh_foi=1e-7);
