@@ -9,14 +9,12 @@ using MKL
 
 @load "data_cmf.jld2"
 
-M = 100
+M = 10
 
-BLAS.get_config()
+display(BLAS.get_config())
 
-init_fspace =  FockConfig([(5, 0), (3, 3), (3, 3), (0, 5), (3, 3), (3, 3), (3, 3), (3, 3)])
-
-
-cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [3,3,3,3,3,3,3,3], init_fspace, max_roots=M, verbose=1);
+init_fspace = FockConfig(init_fspace)
+cluster_bases = FermiCG.compute_cluster_eigenbasis_spin(ints, clusters, d1, [3,3,3], init_fspace, max_roots=M, verbose=1);
 
 clustered_ham = FermiCG.extract_ClusteredTerms(ints, clusters);
 cluster_ops = FermiCG.compute_cluster_ops(cluster_bases, ints);
@@ -32,7 +30,7 @@ ci_vector = FermiCG.add_spin_focksectors(ci_vector)
 
 eci, v = FermiCG.tps_ci_direct(ci_vector, cluster_ops, clustered_ham);
 
-values = [6.4e-4, 3.2e-4, 1.6e-4, 8e-5,  4e-5, 2e-5]
+values = [6.4e-4, 3.2e-4, 1.6e-4, 8e-5,  4e-5, 2e-5, 1e-5]
 
 
 for v in values
@@ -41,10 +39,10 @@ for v in values
                                 thresh_cipsi = v,
                                 thresh_spin  = v,
                                 thresh_foi   = 1e-6,
-                                ci_max_iter  = 100,
-                                conv_thresh  = 1e-5,
+                                ci_max_iter  = 150,
+                                conv_thresh  = 1e-6,
                                 nbody        = 4,
-                                max_mem_ci   = 200);
+                                max_mem_ci   = 180);
 
     @save "out.jld2" ci_vector v0a e0a cluster_bases clustered_ham init_fspace v 
 
