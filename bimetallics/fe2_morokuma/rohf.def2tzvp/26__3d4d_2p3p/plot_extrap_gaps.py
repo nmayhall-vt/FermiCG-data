@@ -30,10 +30,14 @@ conversion = 219474.63 # cm-1
 energy_var = {}
 energy_pt2 = {}
 num_thresh = 6
+
+n_extrap_points = int((len(data[0])-1)/2)
+print(n_extrap_points)
+
 for i in range(len(data)):
     if  i > 0:
-        energy_var[i] = np.array([float(a)*conversion for a in data[i][1:7]])
-        energy_pt2[i] = np.array([float(a)*conversion for a in data[i][8:14]])
+        energy_var[i] = np.array([float(a)*conversion for a in data[i][1:n_extrap_points]])
+        energy_pt2[i] = np.array([float(a)*conversion for a in data[i][n_extrap_points+1:2*n_extrap_points]])
 
 
 gaps_var = {} 
@@ -68,9 +72,9 @@ for s in gaps_var:
 
 
 ymax = 0 
-ymin = 450 
+ymin = 550 
 xmax = 0 
-xmin = 13.0
+xmin = 50.0
 
 for key in gaps_var:
     print(key, " ", gaps_var[key], gaps_pt2[key])
