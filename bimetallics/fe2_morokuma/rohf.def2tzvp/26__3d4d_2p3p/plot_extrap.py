@@ -9,6 +9,7 @@ import matplotlib.patches as mpatches
 import seaborn as sns
 from matplotlib import colors as mcolors
 
+import scipy
 
 file = os.path.splitext(sys.argv[1])[0]
 
@@ -36,8 +37,8 @@ print(n_extrap_points)
 
 for i in range(len(data)):
     if  i > 0:
-        energy_var[i] = np.array([float(a)*conversion for a in data[i][1:n_extrap_points]])
-        energy_pt2[i] = np.array([float(a)*conversion for a in data[i][n_extrap_points+1:2*n_extrap_points]])
+        energy_var[i] = np.array([float(a)*conversion for a in data[i][1:n_extrap_points+1]])
+        energy_pt2[i] = np.array([float(a)*conversion for a in data[i][n_extrap_points+1:2*n_extrap_points+1]])
 
 
 emin = 0
@@ -48,8 +49,6 @@ for i in energy_pt2:
     energy_var[i] -= emin
 
 print(" Energy shift: %12.8f" %emin)
-print(energy_var)
-print(energy_pt2)
 
 blue = '#3E6D9C'
 orange = '#FD841F'
@@ -68,31 +67,31 @@ extrap = []
 
 
 #set your x and y axis limits
-ymax = -1e10 
-ymin = 0.0
-for s in energy_var:
-    ymax = max(np.max(energy_var[s]), ymax)
-    ymin = min(np.min(energy_pt2[s]), ymin)
-
 
 xmax = 0 
-xmin = 0.0
-for s in energy_var:
-    v = energy_pt2[s] - energy_var[s]
-    xmin = min(np.min(v), xmin)
+xmin = -2
+
+ymax = 10 
+ymin = 0.0
+#for s in energy_var:
+#    ymax = max(np.max(energy_var[s]), ymax)
+#    ymin = min(np.min(energy_pt2[s]), ymin)
+
+
 
 for key in energy_var:
     x = energy_pt2[key] - energy_var[key]
     z = energy_pt2[key]
     y = energy_var[key]
     
-    m, b = np.polyfit(x, y, 1)
-    m2,b = np.polyfit(x, z, 1)
+
+    m, b, r_value, p_value, std_err = scipy.stats.linregress(x, y)
+    m2, b2, r_value, p_value, std_err = scipy.stats.linregress(x, z)
+    
     extrap.append(b)
 
     plt.rcParams.update({'font.size': 10})
 
-    print("b: ", b)
     ymin = min(ymin, b)
     ymax = max(ymax, m*xmin+b)
 
@@ -101,14 +100,15 @@ for key in energy_var:
 
     x2 = np.array([-1,0])*conversion
     line = m*x2+b
-    ax.plot(x2, line, 'r', alpha=1.0, color = cb[key], linestyle='-', linewidth=1.5)
+    ax.plot(x2, line, alpha=1.0, color = cb[key], linestyle='-', linewidth=1.5)
     line = m2*x2+b                                     
-    ax.plot(x2, line, 'r', alpha=0.5, color = cb[key], linestyle='--', linewidth=1.5)
-    print("Extrap  %14.8f"%b)
+    ax.plot(x2, line, alpha=0.5, color = cb[key], linestyle='--', linewidth=1.5)
+    print("Extrapolated Result: %14.8f"% ((b+emin)/conversion))
+    print("R^2                : %14.8f"% r_value)
     print("Var root",key,y)
     print("PT  root",key,z)
-    print("DIFFF",x)
-    print("color",cb[key])
+    #print("DIFFF",x)
+    #print("color",cb[key])
 
 
 ymin = ymin - 1

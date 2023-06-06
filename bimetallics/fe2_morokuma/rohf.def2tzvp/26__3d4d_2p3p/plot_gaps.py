@@ -36,8 +36,8 @@ print(n_extrap_points)
 
 for i in range(len(data)):
     if  i > 0:
-        energy_var[i] = np.array([float(a)*conversion for a in data[i][1:n_extrap_points]])
-        energy_pt2[i] = np.array([float(a)*conversion for a in data[i][n_extrap_points+1:2*n_extrap_points]])
+        energy_var[i] = np.array([float(a)*conversion for a in data[i][1:n_extrap_points+1]])
+        energy_pt2[i] = np.array([float(a)*conversion for a in data[i][n_extrap_points+1:2*n_extrap_points+1]])
 
 
 gaps_var = {} 
