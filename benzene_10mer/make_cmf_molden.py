@@ -140,3 +140,7 @@ Ccmf = np.load("Ccmf.npy")
 pyscf.tools.molden.from_mo(pymol, "Ccmf.molden", Ccmf)
 
 
+for i in range(10):
+    rangei = range((i-1)*6+1,(i-1)*6+6)
+    di = Ccmf[:,rangei] @  Ccmf[:,rangei].T
+    pyscf.tools.cubegen.density(pymol, 'fragden_{:02d}.cube'.format(i+1), di)
