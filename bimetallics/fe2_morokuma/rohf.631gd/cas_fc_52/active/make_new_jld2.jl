@@ -25,5 +25,6 @@ for i in 1:length(clusters)
         clusters[i][j] -= 15
     end
 end
+clusters = [MOCluster(i, collect(clusters[i])) for i = 1:length(clusters)]
 
 @save "data_cmf.jld2" clusters init_fspace ints d1 e_cmf U 
