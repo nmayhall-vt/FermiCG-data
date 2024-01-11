@@ -46,11 +46,16 @@ pyscf.tools.molden.from_mo(pymol, "Cact.molden", Cact)
 #
 d1_embed = 2 * Ccore @ Ccore.T
 
+S = pymol.intor("int1e_ovlp_sph")
+print(" Number of electrons in core: ", np.trace(d1_embed@S))
+
 h0 = pyscf.gto.mole.energy_nuc(mf.mol)
 h  = pyscf.scf.hf.get_hcore(mf.mol)
 j, k = pyscf.scf.hf.get_jk(mf.mol, d1_embed, hermi=1)
 
+print(h0)
 h0 += np.trace(d1_embed @ ( h + .5*j - .25*k))
+print(h0)
 
 h = Cact.T @ h @ Cact;
 j = Cact.T @ j @ Cact;
@@ -62,7 +67,6 @@ h2.shape = (nact, nact, nact, nact)
 # The use of d1_embed only really makes sense if it has zero electrons in the
 # active space. Let's warn the user if that's not true
 
-S = pymol.intor("int1e_ovlp_sph")
 n_act = np.trace(S @ d1_embed @ S @ Cact @ Cact.T)
 if abs(n_act) > 1e-8 == False:
     print(n_act)
