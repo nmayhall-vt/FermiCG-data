@@ -6,9 +6,9 @@ using RDM
 using JLD2
 using Printf
 
-@load "../data_cmf.jld2"
+@load "data_cmf.jld2"
 
-M = 3 
+M = 100 
 
 
 init_fspace =  [(5, 0), (4, 4), (0, 5), (12, 12), (0, 0)]
